@@ -12,8 +12,3 @@ resource "random_password" "secret-3" {
   length  = 50
   special = true
 }
-
-resource "random_password" "secret-4" {
-  length  = 50
-  special = true
-}
